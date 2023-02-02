@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	{{ parent() }}
+	-  Search
+{% endblock %}
+
+{% block body %}    
+    <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand">Navbar</a>
+    
+    {{ form_start(form) }}                
+    {{ form_end(form) }}
+  </div>
+</nav>
+{% endblock %}

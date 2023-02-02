@@ -1,0 +1,31 @@
+.titlePage {
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.product{
+    box-shadow: #503b3b33 0px 7px 29px 0px;
+    text-align: center;
+    padding: 10px;
+}
+.product img{
+    width: 200px;
+    height: 200px;
+}
+
+.prix{
+    display: flex;
+    flex-direction: column;
+}
+
+.priceStyle {
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
